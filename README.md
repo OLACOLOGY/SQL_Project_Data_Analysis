@@ -197,7 +197,7 @@ HAVING COUNT(skills_dim.skill_id) > 10
 ORDER BY 
         avg_salary DESC,
         demand_count DESC
-LIMIT 25
+LIMIT 10
 ```
 
 |Skill ID	|Skills|	Demand Count|	Average Salary ($)|
